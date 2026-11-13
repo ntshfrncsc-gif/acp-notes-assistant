@@ -1,0 +1,22 @@
+display_information:
+  name: ACP Team Assistant
+  description: Sends each ACP teammate their daily Lendr notes for approval and confirms what was posted to Lendr.
+  background_color: "#0d2137"
+features:
+  bot_user:
+    display_name: ACP Team Assistant
+    always_online: true
+  app_home:
+    home_tab_enabled: false
+    messages_tab_enabled: true
+    messages_tab_read_only_enabled: false
+oauth_config:
+  scopes:
+    bot:
+      - chat:write
+      - im:write
+      - im:history
+settings:
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false
